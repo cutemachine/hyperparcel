@@ -1,0 +1,9 @@
+{
+  "name": "hyperparcel",
+  "version": "1.0.0",
+  "description": "A starter for building apps with Hyperapp and Parcel.",
+  "main": "index.js",
+  "repository": "https://github.com/cutemachine/hyperparcel.git",
+  "author": "jo@cutemachine.com",
+  "license": "MIT"
+}
