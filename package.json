@@ -5,5 +5,10 @@
   "main": "index.js",
   "repository": "https://github.com/cutemachine/hyperparcel.git",
   "author": "jo@cutemachine.com",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "parcel-bundler": "^1.5.1"
+  }
 }
