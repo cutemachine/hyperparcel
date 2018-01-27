@@ -62,3 +62,6 @@ bundle-stats.json
 
 # Tern stuff
 .tern-port
+
+# Do not check in Netlify site id
+.netlify
