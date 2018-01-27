@@ -1763,6 +1763,10 @@ https-browserify@^1.0.0:
   version "1.0.0"
   resolved "https://registry.npmjs.org/https-browserify/-/https-browserify-1.0.0.tgz#ec06c10e0a34c0f2faf199f7fd7fc78fffd03c73"
 
+hyperapp@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.npmjs.org/hyperapp/-/hyperapp-1.0.2.tgz#aa3e03434650297368339a9465cb0b489fb49332"
+
 ieee754@^1.1.4:
   version "1.1.8"
   resolved "https://registry.npmjs.org/ieee754/-/ieee754-1.1.8.tgz#be33d40ac10ef1926701f6f08a2d86fbfd1ad3e4"
