@@ -4,8 +4,8 @@
   "description": "A starter for building apps with Hyperapp and Parcel.",
   "main": "index.js",
   "scripts": {
-    "start": "parcel index.html",
-    "build": "parcel build index.html --public-url ./"
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html --public-url ./"
   },
   "repository": "https://github.com/cutemachine/hyperparcel.git",
   "author": "jo@cutemachine.com",
