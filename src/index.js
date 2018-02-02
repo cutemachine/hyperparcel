@@ -1,4 +1,9 @@
 import { h, app } from "hyperapp"
+import Wrapper from './components/Wrapper'
+import H1 from './components/H1'
+import Flex from './components/Flex'
+import Button from './components/Button'
+import './index.css'
 
 const state = {
   count: 0
@@ -10,11 +15,13 @@ const actions = {
 }
 
 const view = (state, actions) => (
-  <main>
-    <h1>{state.count}</h1>
-    <button onclick={actions.down}>-</button>
-    <button onclick={actions.up}>+</button>
-  </main>
+  <Wrapper>
+    <H1>{state.count}</H1>
+    <Flex>
+      <Button onclick={actions.down}>-</Button>
+      <Button onclick={actions.up}>+</Button>
+    </Flex>
+  </Wrapper>
 )
 
 const main = app(state, actions, view, document.body)
