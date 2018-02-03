@@ -29,6 +29,6 @@ These commands will …
 - remove the old Git history,
 - initialize a new Git repo,
 - install the packages from the NPM registry, and
-- start you project locally.
+- start your project locally.
 
 Enjoy
