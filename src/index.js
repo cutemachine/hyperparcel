@@ -3,7 +3,7 @@ import Wrapper from './components/Wrapper'
 import H1 from './components/H1'
 import Flex from './components/Flex'
 import Button from './components/Button'
-import './index.css'
+import './reset.css'
 
 const state = {
   count: 0
